@@ -75,6 +75,10 @@
 		9E1F6FBA1DEE810400912955 /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1F6FB81DEE810400912955 /* Middleware.swift */; };
 		9E1F6FBB1DEE810400912955 /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1F6FB81DEE810400912955 /* Middleware.swift */; };
 		9E1F6FBC1DEE810400912955 /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1F6FB81DEE810400912955 /* Middleware.swift */; };
+		B76C1B7520482C930014C486 /* ReducerStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76C1B7420482C930014C486 /* ReducerStack.swift */; };
+		B76C1B7620482C930014C486 /* ReducerStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76C1B7420482C930014C486 /* ReducerStack.swift */; };
+		B76C1B7720482C930014C486 /* ReducerStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76C1B7420482C930014C486 /* ReducerStack.swift */; };
+		B76C1B7820482C930014C486 /* ReducerStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76C1B7420482C930014C486 /* ReducerStack.swift */; };
 		FC03AA1B1E26BF330034FBFA /* StandardActionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03AA1A1E26BF330034FBFA /* StandardActionTests.swift */; };
 		FC03AA1C1E26BF330034FBFA /* StandardActionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03AA1A1E26BF330034FBFA /* StandardActionTests.swift */; };
 		FC03AA1D1E26BF330034FBFA /* StandardActionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03AA1A1E26BF330034FBFA /* StandardActionTests.swift */; };
@@ -136,6 +140,7 @@
 		9E1F6F9A1DED120A00912955 /* ObservablePropertyType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservablePropertyType.swift; sourceTree = "<group>"; };
 		9E1F6F9B1DED120A00912955 /* StreamType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamType.swift; sourceTree = "<group>"; };
 		9E1F6FB81DEE810400912955 /* Middleware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Middleware.swift; sourceTree = "<group>"; };
+		B76C1B7420482C930014C486 /* ReducerStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReducerStack.swift; sourceTree = "<group>"; };
 		FC03AA1A1E26BF330034FBFA /* StandardActionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardActionTests.swift; sourceTree = "<group>"; };
 		FC15F3FA1E21C72100CF4886 /* Coding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -254,6 +259,7 @@
 				9E1F6FB81DEE810400912955 /* Middleware.swift */,
 				9E1F6E7B1DDD190B00912955 /* Store.swift */,
 				625E66B81C1FFC880027C288 /* Reducer.swift */,
+				B76C1B7420482C930014C486 /* ReducerStack.swift */,
 			);
 			path = CoreTypes;
 			sourceTree = "<group>";
@@ -592,6 +598,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25DBCF401C30C16000D63A58 /* Action.swift in Sources */,
+				B76C1B7820482C930014C486 /* ReducerStack.swift in Sources */,
 				9E1F6F9F1DED120A00912955 /* ObservablePropertyType.swift in Sources */,
 				9E1F6E811DDD190B00912955 /* Store.swift in Sources */,
 				9E1F6F921DED0D5400912955 /* SubscriptionReferenceBag.swift in Sources */,
@@ -610,6 +617,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25DBCF571C30C19500D63A58 /* Action.swift in Sources */,
+				B76C1B7720482C930014C486 /* ReducerStack.swift in Sources */,
 				9E1F6F9E1DED120A00912955 /* ObservablePropertyType.swift in Sources */,
 				9E1F6E801DDD190B00912955 /* Store.swift in Sources */,
 				9E1F6F911DED0D5400912955 /* SubscriptionReferenceBag.swift in Sources */,
@@ -643,6 +651,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25DBCF931C30C4F000D63A58 /* Action.swift in Sources */,
+				B76C1B7620482C930014C486 /* ReducerStack.swift in Sources */,
 				9E1F6F9D1DED120A00912955 /* ObservablePropertyType.swift in Sources */,
 				9E1F6E7F1DDD190B00912955 /* Store.swift in Sources */,
 				9E1F6F901DED0D5400912955 /* SubscriptionReferenceBag.swift in Sources */,
@@ -676,6 +685,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E1F6E7E1DDD190B00912955 /* Store.swift in Sources */,
+				B76C1B7520482C930014C486 /* ReducerStack.swift in Sources */,
 				9E1F6F9C1DED120A00912955 /* ObservablePropertyType.swift in Sources */,
 				625E66BC1C1FFC880027C288 /* Action.swift in Sources */,
 				9E1F6F8F1DED0D5400912955 /* SubscriptionReferenceBag.swift in Sources */,
